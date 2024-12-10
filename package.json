@@ -1,0 +1,26 @@
+{
+  "name": "asatechonolgy",
+  "version": "1.0.0",
+  "description": "This is weather app api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "Prajapati"
+  ],
+  "author": "Vikrant",
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "watch": "^1.0.2"
+  }
+}
